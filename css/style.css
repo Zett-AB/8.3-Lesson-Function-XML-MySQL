@@ -33,4 +33,32 @@ h1, h2,h3,h4,h5,h6{
 p {
     font-family: Montserrat Alternates;
     font-size: 18px;
+     
+}
+.code_php_p{
+    border: 1px solid blue;
+    background-color: azure;
+}
+.code_php_str{
+    font-weight: 700;
+    
+    /* text-align: left; */
+}
+.code_php{
+    border: 2px solid blue;
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+}
+.title_php_code{
+    font-family: Philosopher;
+    border: 1px solid blue;
+    text-align: center;
+    background-color: azure;
+    padding-top: 50px;
+    padding-bottom: 80px;
 }
