@@ -1,0 +1,36 @@
+*{
+    padding: 8px;
+}
+@font-face {
+	font-family: 'Philosopher'; 
+	src: local('Phlosopher'),
+		url(fonts/Philosopher/Philosopher-Regular.ttf),
+        url(fonts/Philosopher/Philosopher-Bold.ttf),
+        url(fonts/Philosopher/Philosopher-BoldItalic.ttf),
+        url(fonts/Philosopher/Philosopher-Italic.ttf); 
+        font-style: normal; 
+        font-weight: normal;
+}
+@font-face {
+	font-family: 'Montserrat_Alternates'; 
+	src: local('Montserrat_Alternates'),
+		url(fonts/Montserrat_Alternates/MontserratAlternates-Regular.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Black.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Bold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraBold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-ExtraLight.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Italic.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Light.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Medium.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-SemiBold.ttf),
+        url(fonts/Montserrat_Alternates/MontserratAlternates-Thin.ttf); 
+        font-style: normal; 
+        font-weight: normal;
+}
+h1, h2,h3,h4,h5,h6{
+    font-family: Philosopher;
+}
+p {
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+}
